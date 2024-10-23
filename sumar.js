@@ -129,8 +129,6 @@ console.log(buscarNumero("nora", "numero"));
 
 
 
- 
-
 
 
 

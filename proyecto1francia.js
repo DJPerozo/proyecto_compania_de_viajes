@@ -45,7 +45,7 @@ function duracionItalia(valor) {
     var dura
     switch(valor) {
         case "dias":
-            dura = "\n 7 dias de grandes experienza y emociones en el paiz mas romantico francia"
+            dura = "\n 7 dias de grandes experienza y emociones en el paiz mas romantico, francia"
             break;
             case 2:
                 dura = "vive esta experienza unica no te lo pierdas"
