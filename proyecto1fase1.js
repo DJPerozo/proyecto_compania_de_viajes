@@ -1,16 +1,22 @@
 function nombreEmpresa(nombre) {
-    var descripsion  
-switch(nombre) {
-    
-    case 1:
-    descripsion = "hola, bienvenido a la pagina wed de compañia flassx en que te podemos ayudar. "
-    break;
-    
-    case 2:
-        descripsion = "en nuestro sitio wed puedes encontrar todo lo relacionado con nuestros servisios:"
-        break
-}
-return descripsion;
+    let descripsion;
+    let errorMenu = false;
+    switch(nombre) {    
+        case 1:
+        descripsion = "hola, bienvenido a la pagina wed de compañia flassx en que te podemos ayudar. "
+            break;        
+        case 2:
+            descripsion = "en nuestro sitio wed puedes encontrar todo lo relacionado con nuestros servisios:"
+            break
+        default:
+            errorMenu = true
+            descripsion = "nombre no se encuentra dispoinible entre las opciones intente de nuevo"
+            break
+    }
+    if(errorMenu){
+        return "nombre no se encuentra dispoinible entre las opciones intente de nuevo"
+    }
+    return descripsion;
   }
 console.log(nombreEmpresa(1).toUpperCase());
 
